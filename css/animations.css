@@ -1,0 +1,1 @@
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 #00d4ff33}50%{box-shadow:0 0 0 12px #00d4ff00}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.speaking .avatar{animation:pulse 1.4s infinite}.hero-card{animation:float 6s ease-in-out infinite}

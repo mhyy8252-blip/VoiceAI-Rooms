@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#060818">
+  <meta name="description" content="VoiceAI Rooms — غرف دردشة صوتية مدعومة بالذكاء الاصطناعي">
+  <title>VoiceAI Rooms</title>
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#/rooms" aria-label="VoiceAI Rooms">
+        <span class="brand-mark">◉</span><span>VoiceAI <b>Rooms</b></span>
+      </a>
+      <div class="topbar-tools">
+        <label class="search-box"><span>⌕</span><input id="room-search" type="search" placeholder="ابحث عن غرفة..."></label>
+        <button class="icon-button" id="language-toggle" title="Change language">EN</button>
+        <button class="icon-button" id="notifications-button" title="الإشعارات">♧</button>
+        <button class="profile-chip" id="profile-button"><span class="avatar tiny">م</span><span id="profile-name">زائر</span></button>
+      </div>
+    </header>
+    <main id="view" class="view" tabindex="-1"></main>
+    <footer class="footer-note">VoiceAI Rooms <span>•</span> مساحة آمنة للتواصل والاستماع</footer>
+  </div>
+  <div id="toast-region" class="toast-region" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <script src="https://cdn.socket.io/4.8.1/socket.io.min.js" crossorigin="anonymous"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
