@@ -1,0 +1,10 @@
+:root {
+  color-scheme: dark;
+  --void:#060818; --nebula:#0D1B3E; --pulse:#1A2F5A;
+  --aurora-1:#7B2FBE; --aurora-2:#00D4FF; --aurora-3:#FF6B9D;
+  --gold:#FFD700; --text-bright:#E8F4FF; --text-muted:#7A9CC0;
+  --surface:rgba(13,27,62,.78); --surface-strong:rgba(26,47,90,.88);
+  --border:rgba(125,178,230,.17); --success:#46dfaa; --danger:#ff647c;
+  --radius:18px; --shadow:0 18px 55px rgba(0,0,0,.28);
+  font-family: Tahoma, Arial, sans-serif;
+}
